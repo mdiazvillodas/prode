@@ -22,7 +22,7 @@ only screen and (min-resolution: 2dppx) {
 }
 
 .alt{
-	background: #eeeeee;
+	background: #FFFDEF;
 }
 
 .itm{
@@ -34,6 +34,26 @@ only screen and (min-resolution: 2dppx) {
 	width: 100%;
 	height: 40px;
 	border-bottom:1px solid #ccc;
+}
+
+.verde{
+	background: ;
+}
+
+.amarillo{
+	 background: ;
+}
+
+.azul{
+	background: ;
+}
+
+.top i{
+    float: left;
+    font-size: 25px;
+    line-height: 40px;
+    margin: 0 11px 0 0;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25) !important;
 }
 
 .top .menu{
@@ -55,21 +75,19 @@ only screen and (min-resolution: 2dppx) {
 }
 
 .top .info .box{
-	width: 100px;
+	width: 120px;
 	height: 40px;
 	float: left;
 }
 
 .top .info .box .text{
 	float: left;
-	width: 100%;
 	height: 20px;
 	line-height: 20px;
 }
 
 .top .info .box .fecha{
 	float: left;
-	width:100%;
 	height: 20px;
 	line-height: 20px;
 }
@@ -84,6 +102,7 @@ only screen and (min-resolution: 2dppx) {
     float: left;
     padding: 25px;
     width: 100%;
+    position: relative;
 }
 
 .main h1 {
@@ -107,7 +126,7 @@ only screen and (min-resolution: 2dppx) {
 }
 
 .main .col .fixture .head, .main .col .tablas .head, .main .friends .head{
-    background: none repeat scroll 0 0 #95AE0C;
+   background: none repeat scroll 0 0 #DFF0D8;
     border: 1px solid #95AE0C;
     float: left;
     height: 30px;
@@ -147,9 +166,9 @@ only screen and (min-resolution: 2dppx) {
 	height: 28px;
 	line-height: 28px;
 	font-weight: 600;	
-	border-right: 1px solid #95AE0C;
+    border-right: 1px solid #DFF0D8;
+    color: #468847;
 	text-align: center;
-	color: white;
 }
 
 .main .col .fixture .head div:last-child, .main .col .tablas .head div:last-child, .main .friends .head div:last-child{
@@ -175,6 +194,7 @@ only screen and (min-resolution: 2dppx) {
 	width:22px;
 	border: none;
 	height: 22px;
+	background: transparent;
 	text-align: center;
 }
 
@@ -215,5 +235,39 @@ only screen and (min-resolution: 2dppx) {
 .friends {
 	float: left;
 	width:100%;
+}
+
+h3{
+	margin: 0;
+}
+
+.absolute{
+	position: absolute;
+}
+
+.right{
+    right: 0;
+    top: 0;	
+}
+
+.controles {
+    background: none repeat scroll 0 0 #DFF0D8;
+    border: 1px solid #95AE0C;
+    border-radius: 5px;
+    margin: 25px;
+    padding: 20px;
+    color: #468847;
+}
+
+.center{
+	width: 200px;
+	left: 50%;
+	margin-left: -100px;
+	top: 0;
+}
+
+.center input{
+	border: 1px solid #95AE0C;
+	height: 25px;
 }
 

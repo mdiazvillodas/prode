@@ -31,16 +31,23 @@
 			<li class="item">Tus Reglas</li>
 			<li class="item">Tu pronostico</li>			
 		</ul>
+		<div class="fila">
+			<span>Agregar amigo al torneo</span>
+			<input type="text"/>
+		</div>
 		<ul class="info">
-			<li class="box">
+			<li class="box azul">
+				<i class="ion-clock"></i>
 				<span class="text">Fecha Limite</span>
 				<span class="fecha">12/06/2014</span>
 			</li>
-			<li class="box">
+			<li class="box amarillo">
+				<i class="ion-person-stalker"></i>
 				<span class="text">Amigos</span>
 				<span class="text">"Los pibes"</span>
 			</li>
-			<li class="box">
+			<li class="box verde">
+				<i class="ion-person"></i>
 				<span class="text">Usuario</span>
 				<span class="text">Mdiazvillodas</span>
 			</li>
@@ -48,8 +55,15 @@
 	</div>
 	<div id="main-content" class="main">
 		<div class="contenido">
-			<h1 class="title">Ingresá tus pronosticos</h1>
-			<h2>No olvides guardar tus cambios!</h2>
+			<h1 class="title">Prode Mundial Brasil 2014</h1>
+			<h2>Ingresá tus pronosticos</h2>
+			<div class="controles absolute right">
+				<h3>Controles</h3>
+				<div class="fila">
+					<span>Fecha límite</span>
+					<input type="checkbox"/>
+				</div>
+			</div>
 			<div class="wide">
 				<div class="friends">
 					<div class="head">
@@ -125,6 +139,230 @@
 						<div class="fecha">Día</div>
 					</div>
 					<div class="body">
+						<div class="row itm">
+							<div class="bandera"></div>
+							<div class="pais">Argentina</div>
+							<div class="resultado">
+								<input type="text" value="2" class="res"/>
+							</div>
+							<div class="resultado">VS</div>
+							<div class="resultado">
+								<input type="text" value="2" class="res"/>
+							</div>
+							<div class="pais">Argentina</div>
+							<div class="bandera"></div>
+							<div class="fecha">12/06</div>
+						</div>
+						<div class="row alt">
+							<div class="bandera"></div>
+							<div class="pais">Argentina</div>
+							<div class="resultado">
+								<input type="text" class="res"/>
+							</div>
+							<div class="resultado">VS</div>
+							<div class="resultado">
+								<input type="text" class="res"/>
+							</div>
+							<div class="pais"></div>
+							<div class="bandera"></div>
+							<div class="fecha">12/06</div>
+						</div>
+						<div class="row itm">
+							<div class="bandera"></div>
+							<div class="pais">Argentina</div>
+							<div class="resultado">
+								<input type="text" value="2" class="res"/>
+							</div>
+							<div class="resultado">VS</div>
+							<div class="resultado">
+								<input type="text" value="2" class="res"/>
+							</div>
+							<div class="pais">Argentina</div>
+							<div class="bandera"></div>
+							<div class="fecha">12/06</div>
+						</div>
+						<div class="row alt">
+							<div class="bandera"></div>
+							<div class="pais">Argentina</div>
+							<div class="resultado">
+								<input type="text" class="res"/>
+							</div>
+							<div class="resultado">VS</div>
+							<div class="resultado">
+								<input type="text" class="res"/>
+							</div>
+							<div class="pais"></div>
+							<div class="bandera"></div>
+							<div class="fecha">12/06</div>
+						</div>
+						<div class="row itm">
+							<div class="bandera"></div>
+							<div class="pais">Argentina</div>
+							<div class="resultado">
+								<input type="text" value="2" class="res"/>
+							</div>
+							<div class="resultado">VS</div>
+							<div class="resultado">
+								<input type="text" value="2" class="res"/>
+							</div>
+							<div class="pais">Argentina</div>
+							<div class="bandera"></div>
+							<div class="fecha">12/06</div>
+						</div>
+						<div class="row alt">
+							<div class="bandera"></div>
+							<div class="pais">Argentina</div>
+							<div class="resultado">
+								<input type="text" class="res"/>
+							</div>
+							<div class="resultado">VS</div>
+							<div class="resultado">
+								<input type="text" class="res"/>
+							</div>
+							<div class="pais"></div>
+							<div class="bandera"></div>
+							<div class="fecha">12/06</div>
+						</div>
+						<div class="row itm">
+							<div class="bandera"></div>
+							<div class="pais">Argentina</div>
+							<div class="resultado">
+								<input type="text" value="2" class="res"/>
+							</div>
+							<div class="resultado">VS</div>
+							<div class="resultado">
+								<input type="text" value="2" class="res"/>
+							</div>
+							<div class="pais">Argentina</div>
+							<div class="bandera"></div>
+							<div class="fecha">12/06</div>
+						</div>
+						<div class="row alt">
+							<div class="bandera"></div>
+							<div class="pais">Argentina</div>
+							<div class="resultado">
+								<input type="text" class="res"/>
+							</div>
+							<div class="resultado">VS</div>
+							<div class="resultado">
+								<input type="text" class="res"/>
+							</div>
+							<div class="pais"></div>
+							<div class="bandera"></div>
+							<div class="fecha">12/06</div>
+						</div>
+						<div class="row itm">
+							<div class="bandera"></div>
+							<div class="pais">Argentina</div>
+							<div class="resultado">
+								<input type="text" value="2" class="res"/>
+							</div>
+							<div class="resultado">VS</div>
+							<div class="resultado">
+								<input type="text" value="2" class="res"/>
+							</div>
+							<div class="pais">Argentina</div>
+							<div class="bandera"></div>
+							<div class="fecha">12/06</div>
+						</div>
+						<div class="row alt">
+							<div class="bandera"></div>
+							<div class="pais">Argentina</div>
+							<div class="resultado">
+								<input type="text" class="res"/>
+							</div>
+							<div class="resultado">VS</div>
+							<div class="resultado">
+								<input type="text" class="res"/>
+							</div>
+							<div class="pais"></div>
+							<div class="bandera"></div>
+							<div class="fecha">12/06</div>
+						</div>
+						<div class="row itm">
+							<div class="bandera"></div>
+							<div class="pais">Argentina</div>
+							<div class="resultado">
+								<input type="text" value="2" class="res"/>
+							</div>
+							<div class="resultado">VS</div>
+							<div class="resultado">
+								<input type="text" value="2" class="res"/>
+							</div>
+							<div class="pais">Argentina</div>
+							<div class="bandera"></div>
+							<div class="fecha">12/06</div>
+						</div>
+						<div class="row alt">
+							<div class="bandera"></div>
+							<div class="pais">Argentina</div>
+							<div class="resultado">
+								<input type="text" class="res"/>
+							</div>
+							<div class="resultado">VS</div>
+							<div class="resultado">
+								<input type="text" class="res"/>
+							</div>
+							<div class="pais"></div>
+							<div class="bandera"></div>
+							<div class="fecha">12/06</div>
+						</div>
+						<div class="row itm">
+							<div class="bandera"></div>
+							<div class="pais">Argentina</div>
+							<div class="resultado">
+								<input type="text" value="2" class="res"/>
+							</div>
+							<div class="resultado">VS</div>
+							<div class="resultado">
+								<input type="text" value="2" class="res"/>
+							</div>
+							<div class="pais">Argentina</div>
+							<div class="bandera"></div>
+							<div class="fecha">12/06</div>
+						</div>
+						<div class="row alt">
+							<div class="bandera"></div>
+							<div class="pais">Argentina</div>
+							<div class="resultado">
+								<input type="text" class="res"/>
+							</div>
+							<div class="resultado">VS</div>
+							<div class="resultado">
+								<input type="text" class="res"/>
+							</div>
+							<div class="pais"></div>
+							<div class="bandera"></div>
+							<div class="fecha">12/06</div>
+						</div>
+						<div class="row itm">
+							<div class="bandera"></div>
+							<div class="pais">Argentina</div>
+							<div class="resultado">
+								<input type="text" value="2" class="res"/>
+							</div>
+							<div class="resultado">VS</div>
+							<div class="resultado">
+								<input type="text" value="2" class="res"/>
+							</div>
+							<div class="pais">Argentina</div>
+							<div class="bandera"></div>
+							<div class="fecha">12/06</div>
+						</div>
+						<div class="row alt">
+							<div class="bandera"></div>
+							<div class="pais">Argentina</div>
+							<div class="resultado">
+								<input type="text" class="res"/>
+							</div>
+							<div class="resultado">VS</div>
+							<div class="resultado">
+								<input type="text" class="res"/>
+							</div>
+							<div class="pais"></div>
+							<div class="bandera"></div>
+							<div class="fecha">12/06</div>
+						</div>
 						<div class="row itm">
 							<div class="bandera"></div>
 							<div class="pais">Argentina</div>
