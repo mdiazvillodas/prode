@@ -4,8 +4,10 @@
 	<title>PRODE MUNDIAL FIFA 2014</title>
 	<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 	<link href="./css/style.css" type="text/css" rel="stylesheet" />
+	<link href="./css/phoca-flags.css" type="text/css" rel="stylesheet" />
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
 	<link href="./css/ionicons.css" rel="stylesheet" type="text/css" media="screen" />
+	<meta name="Mundial" content="Prode online brasil 2014 mundial">    
 	
 	<script type="text/javascript" src="./js/mootools.js"></script>
 	<script type="text/javascript" src="./js/mootools-more.js"></script>
@@ -1037,7 +1039,7 @@
 						</div>
 					</div>
 				</div>
-				<input type="submit" value="Guardar Cambios"/>
+				<input type="submit" class="send" value="Guardar Cambios"/>
 			</div>
 			<div class="col">
 				<div class="tablas">
